@@ -50,16 +50,16 @@ RollNumber, Name, Score
 ## Example
 
 ```
-Please select an option (e.g 1/2/3/4/5/6/0): 
+Please select an option (e.g 1/2/3/4/5/6/7/8/9/0): 
 1. Add Students Records
 2. Edit Students Records
-3. Display Students Records
+3. Display Students' Records
 4. Delete Students Records 
-5. Print/Download Students Records
-6. Upload Students Records
+5. Print/Download Student Records
+6. Upload Students' Records
 7. Search for Student.
 8. Display Average Score.
-9. Display Students Scores in Ascending Order
+9. Display Students' Scores in Ascending Order
 0. Exit
 ```
 
@@ -74,4 +74,4 @@ This project is licensed under the MIT License.
 
 ---
 
-This README provides an overview of the Student Record System, detailing its features, usage, and functions. Use this guide to understand and interact with the program effectively.
+This README provides an overview of the Student Record System, detailing its features, usage, and functions. Use this guide to understand and interact effectively with the program.
