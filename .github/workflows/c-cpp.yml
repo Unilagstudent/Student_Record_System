@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run configure script
-      run: ./path/to/configure  # Update the path if necessary
-    - name: Build
-      run: make
+    - name: Compile
+      run: gcc main.c -o student_record_system
+    - name: Run
+      run: ./student_record_system
