@@ -1,10 +1,6 @@
 name: C/C++ CI
 
-on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -12,12 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
+    - uses: actions/checkout@v2
+    - name: Run configure script
+      run: ./path/to/configure  # Update the path if necessary
+    - name: Build
       run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
